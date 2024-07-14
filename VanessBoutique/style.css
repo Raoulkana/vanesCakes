@@ -1,0 +1,253 @@
+
+@import url(https://fonts.google.com/specimen/Montserrat?query=monts);
+
+
+* {
+    font-family: 'Montserrat';
+
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: o auto;
+}
+
+/* tete de page  */
+header.logo {
+    display: flex;
+    align-items: center;
+}
+
+header.logo img {
+    width: 150px;
+    
+}
+
+
+section.top-page {
+    background: url('bg.jpg');
+    background-size: cover;
+    height: 80vh;
+    padding: 25px;
+}
+
+/* page de bienvenue (landing page) */
+.landing-page {
+    position: relative;
+    padding: 20px 50px;
+}
+.big-title {
+    color: #f9f4f9f9;
+    font-size: 50px;
+    font-family: 'cursive';
+    font-weight: 100;
+    width: 60%;
+}
+.scroll-down {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+
+}
+
+/* menu de navigation  */
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 30px;
+
+}
+
+nav.nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Services */
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+.service-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.delivery-icon {
+    font-size: 50px;
+    color: #bd81d9;
+}
+.servcice-details {
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+    
+}
+
+/* perfect sells */
+
+.section-title {
+    font-size: 50px;
+    font-family: 'Times New Roman';
+    font-weight: 100;
+    position: relative;
+    text-shadow: 4px 3px 5px rgba(109, 56, 137, 0.719);
+
+}
+.section-title::before {
+    content: "";
+    position: absolute;
+    background-color: #8f0deb;
+    width: 50px;
+    height: 7px;
+    bottom: 0; 
+}
+.perfects-items {
+    margin: 100px;
+}
+.best-plants {
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.plant-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+.no-grid {
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+}
+.plant1 {
+    background-image: url(photo/meilleure\ vente/v1.jpg);
+}
+.plant2 {
+    background-image: url(photo/meilleure\ vente/v2.jpg);
+}
+.plant3 {
+    background-image: url(photo/meilleure\ vente/v3.jpg);
+}
+.plant4 {
+    background-image: url(photo/meilleure\ vente/v4.jpg);
+}
+
+.plant-details {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #ffffffdf;
+    padding: 5px 20px;
+
+}
+
+.plant-name {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3px;
+}
+.plant-price {
+    color: #df5819b9;
+    line-height: 3px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+/*  NOS PLANTES  */
+
+.toutes-les-plantes {
+    margin: 100px;
+}
+.plant-grid {
+    display: grid;
+    min-height: 150vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 400px);
+
+}
+.plant-grid1 {
+    background-image: url(photo/nos\ cakes/p1.jpg);
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+.plant-grid2 {
+    background-image: url(photo/nos\ cakes/p2.jpg);
+    grid-column: 3/5;
+}
+.plant-grid3 {
+    background-image: url(photo/nos\ cakes/p3.jpg);
+    grid-column: 3/5;
+}
+.plant-grid4 {
+    background-image: url(photo/nos\ cakes/p4.jpg);
+    grid-column: 1;
+    grid-row: 3/5;
+}
+.plant-grid5 {
+    background-image: url(photo/nos\ cakes/p5.jpg);
+    grid-column: 2/4;
+    grid-row: 3/5;
+}
+.plant-grid6 {
+    background-image: url(photo/nos\ cakes/p6.jpg);
+    grid-column: 4;
+    grid-row: 3/5;
+}
+/* PIED DE PAGE */
+
+footer {
+    background-color: rgba(187, 152, 205, 0.651);
+    color: rgb(19, 18, 18);
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+form {
+    margin: 0 auto;
+    max-width: 500px;
+}
+input,textarea,button {
+    border: none;
+    width: 50%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: cursive;
+    border-radius: 8px;
+
+}
+textarea {
+    height: 100px;
+}
+button:hover {
+    background-color: #e76ab7a3;
+    color: aqua;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+#trait {
+    height: 3px;
+    width: 75%;
+    background-color: rgba(24, 25, 25, 0.88);
+    margin: 60px auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    font-weight: 600;
+}
+footer a.cgv {
+    text-decoration: none;
+    color: black
+}
+
