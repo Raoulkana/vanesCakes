@@ -154,6 +154,37 @@ nav.nav li a {
     font-weight: 600;
     line-height: 3px;
 }
+
+@media (max-width: 600px) {
+    .plant-name {
+        font-size: 2rem;
+        font-weight: 200;
+        line-height: 2px;
+
+    } 
+
+    
+}
+
+.cookies-name {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 3px;
+    text-align: center;
+} 
+
+@media (max-width: 600px) {
+    .cookies-name {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 2px;
+        text-align: left;
+        margin-right: auto;
+    }
+
+    
+} 
+
 .plant-price {
     color: #df5819b9;
     line-height: 3px;
@@ -166,6 +197,16 @@ nav.nav li a {
 .toutes-les-plantes {
     margin: 100px;
 }
+
+@media (max-width: 600px) {
+    .plant-grid {
+        grid-template-columns: auto;
+
+    }
+    
+}
+
+
 .plant-grid {
     display: grid;
     min-height: 150vh;
@@ -250,4 +291,5 @@ footer a.cgv {
     text-decoration: none;
     color: black
 }
+
 
